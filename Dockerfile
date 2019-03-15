@@ -8,7 +8,7 @@ RUN apt-get update && \
 	php5enmod imap
 
 RUN rm -rf /app
-ADD limesurvey.tar.bz2 /
+ADD limesurvey3.tar.bz2 /
 RUN mv limesurvey app; \
 	mkdir -p /uploadstruct; \
 	chown -R www-data:www-data /app
