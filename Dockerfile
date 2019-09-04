@@ -1,5 +1,5 @@
 
-FROM tutum/lamp
+FROM linuxconfig/lamp
 
 RUN apt-get update && \
 	apt-get upgrade -q -y && \
