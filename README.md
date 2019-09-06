@@ -23,8 +23,8 @@ To run limesurvey in 80 port just:
 3. Then enter the following in the field:
   - **Database type** *MySQL*
   - **Database location** *localhost*
-  - **Database user** *root*
-  - **Database password**
+  - **Database user** *admin*
+  - **Database password** *pass*
   - **Database name** *limesurvey* #Or whatever you like
   - **Table prefix** *lime_* #Or whatever you like
 
